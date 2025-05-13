@@ -21,7 +21,8 @@ An automated job/internship application tool built with Python + Selenium.
 - `applier/` — Uses Selenium to auto-apply to jobs
 - `scheduler/` — Setup for cron jobs or GitHub Actions
 - `resumes/` — Contains your tailored resumes
-- `data/` — Auto and manual queues
+- `templates/` — Cover letter and other templates
+- `data/` — Auto and manual queues (`to_apply.json`, `skipped.csv`)
 
 ## ⚙️ Technologies
 
@@ -37,7 +38,17 @@ As a student in Singapore looking for Software, Data, and ML internships, I want
 
 ## 📅 How to Run
 
-1. Edit `config.yaml` to match your keywords, location, and resume paths
-2. Run:
+1. Edit `config.yaml` to match your keywords, location, salary, and resume paths  
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```  
+3. Run:
    ```bash
    python main.py
+   ```  
+4. Optionally schedule it daily via cron or GitHub Actions.
+
+---
+
+This project is 100% customizable and intended for educational + personal productivity purposes.
