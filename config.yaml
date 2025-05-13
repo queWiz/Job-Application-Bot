@@ -1,0 +1,27 @@
+# Roles & keywords
+keywords:
+  - "Software Engineer Intern"
+  - "Data Analyst Intern"
+  - "Data Scientist Intern"
+  - "Full Stack Intern"
+  - "Machine Learning Intern"
+
+# Locations
+locations:
+  - "Singapore"
+  - "Remote"
+
+# Optional salary filter (min USD/year or SGD/year)
+salary_min: 30000
+
+# Resume variants
+resume_variants:
+  - "resumes/software_engineer.pdf"
+  - "resumes/data_science.pdf"
+  - "resumes/full_stack.pdf"
+
+# Cover-letter template
+cover_letter_template: "templates/cover_letter.md"
+
+# Deadline buffer (days before closing)
+deadline_buffer_days: 14
